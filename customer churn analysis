@@ -1,0 +1,31 @@
+# Customer Churn Analysis Project
+
+## Overview
+This project analyzes customer data to calculate churn rates and identify which customer segments are most likely to leave. Using **MySQL**, **Python**, and **Power BI**, the analysis uncovers key churn patterns and provides practical recommendations to improve customer retention.
+
+## Tools Used
+* **MySQL:** Data extraction, filtering, and churn rate calculations.
+* **Python (Pandas & NumPy):** Data cleaning, preprocessing, and exploratory data analysis.
+* **Power BI:** Interactive dashboard to visualize churn trends.
+
+## What I Did
+1. **Queried Data (MySQL):** Wrote SQL queries to segment customers and calculate baseline churn rates.
+2. **Cleaned & Analyzed Data (Python):** Handled missing values, formatted data types, and grouped customers by tenure using Pandas and NumPy.
+3. **Built Dashboard (Power BI):** Created visual reports showing churn across **contract types**, **tenure**, **payment methods**, and **internet services**.
+
+## Key Insights
+* **Contract Type:** Customers on month-to-month contracts have the highest churn rate compared to annual contracts.
+* **Tenure:** New customers in their first few months are much more likely to churn than long-term users.
+* **Payment Method:** Users paying via electronic check churn at a higher rate than those using automatic payments.
+* **Internet Service:** Fiber optic users show higher churn rates than DSL users.
+
+## Recommendations
+* Offer discounts or perks to move month-to-month customers onto 1-year or 2-year contracts.
+* Improve onboarding and customer support during a user's first 6 months.
+* Encourage customers to switch to auto-pay with small incentives.
+* Review pricing and service quality for fiber optic internet plans.
+
+## Files in This Repository
+* `/sql` – SQL queries used for analysis
+* `/notebooks` – Python scripts/notebooks for data cleaning
+* `/dashboard` – Power BI (`.pbix`) file and dashboard screenshots
